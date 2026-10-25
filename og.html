@@ -1,0 +1,35 @@
+<!doctype html>
+<html><head><meta charset="utf-8"><meta name="robots" content="noindex,nofollow"><title>Adinfix — social share image</title>
+<style>
+@font-face{font-family:'Fraunces';src:url('assets/fonts/fraunces-latin.woff2') format('woff2');font-weight:300 900;font-style:normal}
+@font-face{font-family:'Fraunces';src:url('assets/fonts/fraunces-latin-italic.woff2') format('woff2');font-weight:300 900;font-style:italic}
+@font-face{font-family:'Manrope';src:url('assets/fonts/manrope-latin.woff2') format('woff2');font-weight:400 800;font-style:normal}
+*{box-sizing:border-box;margin:0;padding:0}
+body{width:1200px;height:630px;background:#190812;color:#fffaf3;font-family:'Manrope',sans-serif;overflow:hidden;position:relative}
+.glow{position:absolute;width:650px;height:650px;border-radius:50%;right:-180px;top:-220px;background:radial-gradient(circle,rgba(164,20,107,.65),transparent 68%);filter:blur(20px)}
+.grid{position:absolute;inset:0;background-image:linear-gradient(rgba(255,255,255,.05) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,.05) 1px,transparent 1px);background-size:60px 60px;mask-image:radial-gradient(ellipse at 70% 40%,#000,transparent 72%)}
+.wrap{position:relative;z-index:2;height:100%;padding:58px 70px;display:flex;flex-direction:column;justify-content:space-between}
+.top{display:flex;justify-content:space-between;align-items:flex-start}
+.logo{width:190px;height:auto}
+.tag{font-size:11px;font-weight:800;letter-spacing:.18em;text-transform:uppercase;color:#cbb9c4;text-align:right;line-height:1.7}
+h1{font-family:'Fraunces',serif;font-weight:400;font-size:82px;line-height:.95;letter-spacing:-.045em;max-width:900px}
+h1 em{font-style:italic;color:#ffd43b;font-weight:350}
+.bottom{display:flex;align-items:flex-end;justify-content:space-between;gap:40px;border-top:1px solid rgba(255,255,255,.16);padding-top:22px}
+.bottom p{font-size:13px;line-height:1.6;color:#cbb9c4;max-width:430px}
+.bottom strong{display:block;font-family:'Fraunces',serif;font-size:26px;font-weight:400;letter-spacing:-.03em;color:#ffd43b;margin-bottom:4px}
+.loop{width:90px;height:90px;flex:0 0 auto}
+</style></head>
+<body>
+<div class="glow"></div><div class="grid"></div>
+<div class="wrap">
+  <div class="top">
+    <img class="logo" src="assets/img/logo-white.png" alt="Adinfix">
+    <div class="tag">Chennai · Since 1983<br>Full-service growth agency</div>
+  </div>
+  <h1>Good work deserves<br>a <em>louder</em> market.</h1>
+  <div class="bottom">
+    <p><strong>One team. Every lever.</strong>Brand, performance, technology and media connected into one growth loop.</p>
+    <svg class="loop" viewBox="0 0 64 64" aria-hidden="true"><path d="M32 32c0-10-14-10-14 0s14 10 14 0 14-10 14 0-14 10-14 0Z" fill="none" stroke="#ffd43b" stroke-width="3.4" stroke-linecap="round"/><circle cx="32" cy="32" r="2.4" fill="#ffd43b"/></svg>
+  </div>
+</div>
+</body></html>
