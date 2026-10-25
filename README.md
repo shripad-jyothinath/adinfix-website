@@ -27,13 +27,9 @@ This writes the final `.html` files into the project root. Edit the files in `sr
 ## Pages
 
 - `index.html` — home
-- `about.html` — story, values, timeline, team
-- `services.html` — nine detailed capabilities, engagement models, FAQ
-- `work.html` — selected client outcomes and logo wall
-- `insights.html` — editorial hub
-- `insight-answer-engines.html`
-- `insight-fragmented-agencies.html`
-- `insight-creative-that-converts.html`
+- `about.html` — story, why clients choose us, team
+- `services.html` — nine services, how we work, FAQ
+- `work.html` — client quotes and logo wall
 - `contact.html` — enquiry form, direct contact details, FAQ
 - `privacy.html`, `terms.html`
 - `404.html` — not-found page (noindex)
@@ -52,6 +48,6 @@ The contact and newsletter forms open the visitor's email application with a pre
 
 ## Notes
 
-- Client quotes and outcome summaries are based on the existing Adinfix website. Specific metrics should be confirmed before publication.
+- Client quotes are reproduced from the existing Adinfix website. Confirm they are approved for use before publication.
 - The privacy and terms pages are general templates and should be reviewed by legal counsel.
 - The OG image is generated from `og.html`; the favicon is `assets/img/favicon.svg`.

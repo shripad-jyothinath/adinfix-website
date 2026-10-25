@@ -279,7 +279,7 @@
         return;
       }
 
-      openMailto(`Growth audit enquiry — ${name}`, [
+      openMailto(`Website enquiry — ${name}`, [
         'New enquiry from the Adinfix website',
         '',
         `Name: ${name}`,
@@ -287,9 +287,8 @@
         `Email: ${email}`,
         `Phone: ${data.get('phone') || ''}`,
         `Service: ${data.get('service') || ''}`,
-        `Budget: ${data.get('budget') || ''}`,
         '',
-        'What is not working:',
+        'Message:',
         `${data.get('message') || ''}`
       ]);
 

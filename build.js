@@ -9,7 +9,6 @@ const navItems = [
   { key: 'about', label: 'About', href: 'about.html' },
   { key: 'services', label: 'Services', href: 'services.html' },
   { key: 'work', label: 'Work', href: 'work.html' },
-  { key: 'insights', label: 'Insights', href: 'insights.html' },
   { key: 'contact', label: 'Contact', href: 'contact.html' }
 ];
 
@@ -70,7 +69,7 @@ const header = `
 
     <div class="header-actions">
       <a class="header-phone" href="tel:+919445283041">+91 94452 83041</a>
-      <a class="btn btn-small btn-yellow" href="contact.html">Book a growth audit <span class="arrow">↗</span></a>
+      <a class="btn btn-small btn-yellow" href="contact.html">Contact us <span class="arrow">↗</span></a>
       <button class="menu-toggle" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="mobile-menu" data-menu-toggle>
         <span></span><span></span>
       </button>
@@ -89,7 +88,7 @@ const header = `
   <div class="mobile-menu-foot">
     <a href="mailto:mail@adinfix.com">mail@adinfix.com</a>
     <a href="tel:+919445283041">+91 94452 83041</a>
-    <a class="btn btn-yellow" href="contact.html">Book a growth audit <span class="arrow">↗</span></a>
+    <a class="btn btn-yellow" href="contact.html">Contact us <span class="arrow">↗</span></a>
   </div>
 </div>
 `;
@@ -102,7 +101,7 @@ const footer = `
         <img src="assets/img/logo-white.png" alt="Adinfix" width="170" height="72" loading="lazy">
       </a>
       <p class="footer-tagline">Engaging minds.<br>Elevating metrics.</p>
-      <p class="footer-note">A full-service advertising and growth agency in Chennai, working with brands that refuse to blend in.</p>
+      <p class="footer-note">A full-service advertising agency in Chennai. Since 1983.</p>
       <div class="footer-socials">
         <a href="https://in.linkedin.com/company/adinfix" target="_blank" rel="noreferrer" aria-label="Adinfix on LinkedIn">in</a>
         <a href="mailto:mail@adinfix.com" aria-label="Email Adinfix">@</a>
@@ -115,7 +114,6 @@ const footer = `
       <a href="about.html">About</a>
       <a href="services.html">Services</a>
       <a href="work.html">Work</a>
-      <a href="insights.html">Insights</a>
       <a href="contact.html">Contact</a>
     </div>
 
@@ -144,8 +142,8 @@ const footer = `
 
   <div class="footer-newsletter container">
     <div>
-      <p class="micro-label">The occasional useful note</p>
-      <p class="footer-newsletter-copy">One email a month on brand, performance and the systems that make growth compound.</p>
+      <p class="micro-label">Newsletter</p>
+      <p class="footer-newsletter-copy">Occasional updates from Adinfix. No spam.</p>
     </div>
     <div class="newsletter-form-wrap">
       <form class="newsletter-form" data-newsletter>
@@ -176,7 +174,7 @@ function organizationSchema() {
     url: 'https://adinfix.com/',
     logo: 'https://adinfix.com/assets/img/logo-white.png',
     image: 'https://adinfix.com/assets/img/og-cover.png',
-    description: 'Full-service advertising and growth agency in Chennai, connecting brand, performance and technology since 1983.',
+    description: 'Full-service advertising agency in Chennai. Since 1983, Adinfix has helped 150+ brands with strategy, creative, media and technology.',
     foundingDate: '1983',
     telephone: '+91-94452-83041',
     email: 'mail@adinfix.com',
@@ -195,11 +193,11 @@ function organizationSchema() {
 }
 
 const serviceFaqs = [
-  ['Do you work with in-house marketing teams?', 'Yes. We can lead the work, plug into an existing team, or operate as the extra senior bench your team needs. The model is built around clear ownership, not turf.'],
-  ['How quickly can we start?', 'A growth audit usually takes two to three weeks, depending on access to data and stakeholders. Most engagements begin with that diagnostic so the first move is based on evidence, not assumption.'],
-  ['Do you handle traditional media as well as digital?', 'Yes. Adinfix has planned and bought print, TV, FM and OOH since the 1980s. We still believe the channel should follow the audience, not the other way around.'],
-  ['What does success look like?', 'We agree on a small set of business measures before work begins: pipeline, qualified leads, revenue, retention or share of search. Reach and engagement can matter, but they are not the finish line.'],
-  ['What budgets do you work with?', 'We work with growth budgets rather than a fixed minimum. The scope is designed around the outcome, the category and the speed you need. Tell us what you are trying to achieve and we will tell you what it takes.']
+  ['What kind of businesses do you work with?', 'We work with brands and MNCs across automotive, technology, finance, manufacturing, consumer and more.'],
+  ['Do you work with in-house teams?', 'Yes. We can lead the work or support your team.'],
+  ['Do you handle traditional media?', 'Yes. We plan and buy print, TV, FM and OOH. We are accredited by the Indian Newspaper Society.'],
+  ['How do we start?', 'Call or write to us. We will understand your needs and suggest a scope.'],
+  ['Where are you based?', 'Chennai. We work with clients across India and internationally.']
 ];
 
 const faqSchema = {
@@ -213,11 +211,11 @@ const faqSchema = {
 };
 
 const contactFaqs = [
-  ['Do you work with businesses outside Chennai?', 'Yes. Chennai is home, but the work is not limited by pin code. We work with teams across India and internationally, with a mix of in-person and remote sessions.'],
-  ['How quickly can we start?', 'A growth audit usually takes two to three weeks, depending on access to data and stakeholders. Most engagements begin with that diagnostic.'],
-  ['What budgets do you work with?', 'We work with growth budgets rather than a fixed minimum. The scope is designed around the outcome, the category and the speed you need.'],
-  ['Will we work with the same team throughout?', 'Yes. The senior lead in the first conversation is the senior lead on the work. We keep the team deliberately lean so the thinking does not get handed off.'],
-  ['Can you work with our existing agency or in-house team?', 'Yes. We can lead, support or work alongside an existing team. The important thing is that someone owns the loop, not that every task sits with us.']
+  ['Do you work with businesses outside Chennai?', 'Yes. We work with clients across India and internationally.'],
+  ['How do we start?', 'Call or write to us. We will get back to you as soon as possible.'],
+  ['Can you work with our in-house team?', 'Yes. We can lead the work or support your team.'],
+  ['Do you handle traditional media?', 'Yes. Print, TV, FM and OOH. We are accredited by the Indian Newspaper Society.'],
+  ['Where are you based?', 'Chennai. Our address is A1, 1st Floor, New No. 11, 7th Street, Nandanam Extension, Chennai 600035.']
 ];
 
 const contactFaqSchema = {
@@ -235,100 +233,41 @@ const pages = [
     out: 'index.html',
     nav: 'home',
     body: 'home-page',
-    title: 'Adinfix — Full-service growth agency in Chennai',
-    desc: 'Adinfix connects brand, performance and technology into one growth loop. A full-service advertising agency in Chennai, trusted by 150+ brands since 1983.',
+    title: 'Adinfix — Full-service advertising agency in Chennai',
+    desc: 'Adinfix is a full-service advertising agency in Chennai. Since 1983, we have helped 150+ brands with strategy, creative, media and technology.',
     schema: [organizationSchema()]
   },
   {
     out: 'about.html',
     nav: 'about',
     body: 'about-page',
-    title: 'About Adinfix — Four decades of making brands matter',
-    desc: 'Since 1983, Adinfix has helped brands connect strategy, creative, media and technology. Meet the team and the thinking behind the work.',
+    title: 'About Adinfix — A full-service agency in Chennai since 1983',
+    desc: 'Adinfix is a full-service advertising agency in Chennai. Since 1983, we have worked with 150+ brands. Meet our team and learn how we work.',
     schema: [organizationSchema()]
   },
   {
     out: 'services.html',
     nav: 'services',
     body: 'services-page',
-    title: 'Services — Brand, performance, technology and media | Adinfix',
-    desc: 'Nine connected capabilities: brand strategy, web and eCommerce, SEO, performance marketing, social, content, video, traditional media and consultancy.',
+    title: 'Services — Advertising, digital and media | Adinfix',
+    desc: 'Nine services from one team: brand strategy, websites, SEO, performance marketing, social media, content, video, traditional media and consultancy.',
     schema: [organizationSchema(), faqSchema]
   },
   {
     out: 'work.html',
     nav: 'work',
     body: 'work-page',
-    title: 'Work — Selected outcomes from Adinfix',
-    desc: 'Selected client outcomes across search, web experience, recruitment marketing, B2B strategy and integrated campaigns.',
-    schema: [organizationSchema()]
-  },
-  {
-    out: 'insights.html',
-    nav: 'insights',
-    body: 'insights-page',
-    title: 'Insights — Useful thinking on brand, performance and growth | Adinfix',
-    desc: 'Notes on answer-engine search, fragmented agency stacks, creative that converts and the systems that make growth compound.',
+    title: 'Work — What our clients say | Adinfix',
+    desc: 'We have worked with 150+ brands. Here are a few words from the clients we have worked with.',
     schema: [organizationSchema()]
   },
   {
     out: 'contact.html',
     nav: 'contact',
     body: 'contact-page',
-    title: 'Contact Adinfix — Book a growth audit',
-    desc: 'Tell us what is not working. Book a 30-minute growth audit with Adinfix in Chennai, or write to mail@adinfix.com.',
+    title: 'Contact Adinfix — Full-service advertising agency in Chennai',
+    desc: 'Call or write to Adinfix. Tell us what you need and we will get back to you as soon as possible.',
     schema: [organizationSchema(), contactFaqSchema]
-  },
-  {
-    out: 'insight-answer-engines.html',
-    nav: 'insights',
-    body: 'article-page',
-    title: 'The answer-engine era: getting found when Google starts answering | Adinfix',
-    desc: 'Search is becoming an answer surface. Here is how brands can stay visible across Google, AI Overviews, ChatGPT, Perplexity and Claude.',
-    schema: [organizationSchema(), {
-      '@context': 'https://schema.org',
-      '@type': 'Article',
-      headline: 'The answer-engine era: getting found when Google starts answering',
-      description: 'How brands stay visible as search becomes an answer surface.',
-      datePublished: '2026-10-08',
-      dateModified: '2026-10-08',
-      author: { '@type': 'Organization', name: 'Adinfix Editorial' },
-      publisher: { '@type': 'Organization', name: 'Adinfix' }
-    }]
-  },
-  {
-    out: 'insight-fragmented-agencies.html',
-    nav: 'insights',
-    body: 'article-page',
-    title: 'The hidden cost of a fragmented agency stack | Adinfix',
-    desc: 'Five specialists, five dashboards and no single owner of the number. The real cost of fragmentation — and a better operating model.',
-    schema: [organizationSchema(), {
-      '@context': 'https://schema.org',
-      '@type': 'Article',
-      headline: 'The hidden cost of a fragmented agency stack',
-      description: 'Why splitting brand, performance and technology across agencies slows growth.',
-      datePublished: '2026-09-18',
-      dateModified: '2026-09-18',
-      author: { '@type': 'Organization', name: 'Adinfix Editorial' },
-      publisher: { '@type': 'Organization', name: 'Adinfix' }
-    }]
-  },
-  {
-    out: 'insight-creative-that-converts.html',
-    nav: 'insights',
-    body: 'article-page',
-    title: 'Creative that converts: a brief for the algorithm and the human | Adinfix',
-    desc: 'The best-performing creative does two jobs at once: it stops the scroll and gives the brain a reason to act. A practical brief.',
-    schema: [organizationSchema(), {
-      '@context': 'https://schema.org',
-      '@type': 'Article',
-      headline: 'Creative that converts: a brief for the algorithm and the human',
-      description: 'A practical creative brief for performance marketing that still builds the brand.',
-      datePublished: '2026-08-27',
-      dateModified: '2026-08-27',
-      author: { '@type': 'Organization', name: 'Adinfix Editorial' },
-      publisher: { '@type': 'Organization', name: 'Adinfix' }
-    }]
   },
   {
     out: 'privacy.html',
@@ -382,7 +321,7 @@ for (const page of pages) {
   <title>${page.title}</title>
   <meta name="description" content="${page.desc}">
   <link rel="canonical" href="https://adinfix.com/${page.out === 'index.html' ? '' : page.out}">
-  <meta property="og:type" content="${page.body === 'article-page' ? 'article' : 'website'}">
+  <meta property="og:type" content="website">
   <meta property="og:site_name" content="Adinfix">
   <meta property="og:title" content="${page.title}">
   <meta property="og:description" content="${page.desc}">
